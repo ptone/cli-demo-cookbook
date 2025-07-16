@@ -2,6 +2,8 @@
 
 This demo showcases the Gemini CLI's ability to modernize a legacy Python script. The project starts with a simple synchronous HTTP client using the `requests` library and evolves it into a modern, asynchronous client using `httpx`, `pydantic`, and `asyncio`.
 
+[![asciicast](https://asciinema.org/a/B15mPDxPhMOK4H0rMvh8DFGbq.svg)](https://asciinema.org/a/B15mPDxPhMOK4H0rMvh8DFGbq)
+
 ## Scenario
 
 The user requested to upgrade a `requests`-based `client.py` to a modern stack, test it against the provided `server.py`, and ensure it handles various HTTP features correctly.
