@@ -2,6 +2,8 @@
 
 This document summarizes a demonstration of the Gemini CLI being used to modernize a Java application. The demo showcases Gemini's ability to understand complex instructions, interact with a git repository, perform web research, modify code, and debug application startup issues.
 
+[![asciicast](https://asciinema.org/a/ffGLgBx7jXhMwLPCqhPgSLMCW.svg)](https://asciinema.org/a/ffGLgBx7jXhMwLPCqhPgSLMCW)
+
 ## Scenario
 
 The user wants to upgrade an outdated Java application to a more modern version. The process is guided by a `MIGRATE.md` file which specifies a detailed workflow for creating and executing an upgrade plan.
