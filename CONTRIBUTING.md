@@ -36,7 +36,7 @@ Each demo is self-contained in its own folder. The demo should consist of:
   - `python3 ../tools/retime.py demo-orig.cast 3 > demo.cast`
   - This will apply a 3x speed up to the "thinking time" of the model steps, providing for a faster demo. This should be disclosed by anyone re-playing the demo, and is self-evident in the 'seconds' display of the thinking status.
 - Generate an initial readme for this demo with the following command (run from your demo folder)
-  - `(echo "Write a summary of what this demo does to a README.md file, including key initial and followup prompts, steps taken by the Gemini CLI, and the features and capabilities demonstrated based on the transcript: "; cat "$(node ../tools/gemini-hash-dir.mjs)") | gemini -y`
+  - `(echo "Write a brief summary of what this demo does to a README.md file, including key initial and followup prompts, the features and capabilities demonstrated, and a review of steps taken by the Gemini CLI based on the transcript: "; cat "$(node ../tools/gemini-hash-dir.mjs)") | gemini -y`
   - Review and adjust this readme before committing
 - Submit a pull request to include your demo
  
