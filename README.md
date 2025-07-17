@@ -4,8 +4,8 @@ This repository is a cookbook of demos that showcase the features and use cases 
 
 ## Demos
 
--   **[HTTP Client Modernization](http-client-modernize/README.md):** This demo shows how to use the Gemini CLI to modernize an HTTP client in a Python application.
--   **[Java Modernization](java-modernize/README.md):** This demo shows how to use the Gemini CLI to modernize a Java application.
+-   **[Python HTTP Client Modernization](python-http-client-modernize/README.md):** This demo shows how to use the Gemini CLI to modernize an HTTP client in a Python application.
+-   **[Java Runtime Modernization](java-runtime-modernize/README.md):** This demo shows how to use the Gemini CLI to modernize a Java application.
 
 ## Getting Started
 
