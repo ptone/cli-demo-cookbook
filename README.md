@@ -15,7 +15,7 @@ Once you have the Gemini CLI installed, you can clone this repository and run th
 
 ## Contributing
 
-Contributions to this repository are welcome. If you have a demo that you would like to add, please open a pull request.
+Contributions to this repository are welcome. If you have a demo that you would like to add, please see the [contributing documentation](./CONTRIBUTING.md).
 
 ## License
 
