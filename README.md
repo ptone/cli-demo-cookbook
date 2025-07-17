@@ -4,8 +4,11 @@ This repository is a cookbook of demos that showcase the features and use cases 
 
 ## Demos
 
--   **[Python HTTP Client Modernization](python-http-client-modernize/README.md):** This demo shows how to use the Gemini CLI to modernize an HTTP client in a Python application.
--   **[Java Runtime Modernization](java-runtime-modernize/README.md):** This demo shows how to use the Gemini CLI to modernize a Java application.
+Each Demo is contained in a subfolder and contains:
+ - Its own documentation/README
+ - Materials and code that provide a starting point for repeating the demo
+ - A .cast file recording made with [asciinema](https://asciinema.org/) of the demo being run
+
 
 ## Getting Started
 
