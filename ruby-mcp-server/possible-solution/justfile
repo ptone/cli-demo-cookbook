@@ -1,0 +1,32 @@
+serve:
+    rbenv exec bundle exec rackup -p 4242 > log/server.log 2>&1
+
+test:
+    curl -s http://localhost:4242/mcp/tools
+
+test-location:
+    curl -s http://localhost:4242/mcp/tools/location
+
+test-uname:
+    curl -s http://localhost:4242/mcp/tools/uname
+
+test-hostname:
+    curl -s http://localhost:4242/mcp/tools/hostname
+
+test-datetime:
+    curl -s http://localhost:4242/mcp/tools/datetime
+
+test-error:
+    curl -s http://localhost:4242/mcp/tools/error_test
+
+test-error-verbose:
+    curl -s "http://localhost:4242/mcp/tools/error_test?verbose=true"
+
+test-em-all:
+    just test
+    just test-location
+    just test-uname
+    just test-hostname
+    just test-datetime
+    just test-error
+    just test-error-verbose
